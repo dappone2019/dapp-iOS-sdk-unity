@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830CEF16233078E1008753E4 /* DappbirdsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830CEF14233078D3008753E4 /* DappbirdsSDK.framework */; };
+		830CEF17233078E1008753E4 /* DappbirdsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 830CEF14233078D3008753E4 /* DappbirdsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		830CEF18233078E1008753E4 /* DappbirdsSDKIOST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830CEF062330709C008753E4 /* DappbirdsSDKIOST.framework */; };
+		830CEF19233078E1008753E4 /* DappbirdsSDKIOST.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 830CEF062330709C008753E4 /* DappbirdsSDKIOST.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83F4ED2822F084AA00450826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F4ED2622F084AA00450826 /* Main.storyboard */; };
+		83F4ED2A22F084AB00450826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F4ED2922F084AB00450826 /* Assets.xcassets */; };
+		83F4ED2D22F084AB00450826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F4ED2B22F084AB00450826 /* LaunchScreen.storyboard */; };
+		83F4ED3022F084AB00450826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F4ED2F22F084AB00450826 /* main.m */; };
+		83F4ED3E22F084E000450826 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F4ED3722F084E000450826 /* AppDelegate.m */; };
+		83F4ED4122F084E000450826 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F4ED3B22F084E000450826 /* HomeViewController.m */; };
+		83F4ED4222F084E000450826 /* DappbirdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83F4ED3C22F084E000450826 /* DappbirdsBundle.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		830CEF1A233078E1008753E4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				830CEF19233078E1008753E4 /* DappbirdsSDKIOST.framework in Embed Frameworks */,
+				830CEF17233078E1008753E4 /* DappbirdsSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		830018B62329EE650047BC71 /* DappbirdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DappbirdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830CEF062330709C008753E4 /* DappbirdsSDKIOST.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DappbirdsSDKIOST.framework; sourceTree = "<group>"; };
+		830CEF14233078D3008753E4 /* DappbirdsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DappbirdsSDK.framework; sourceTree = "<group>"; };
+		831D49FC22FAA80200DAEF0D /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
+		83F4ED1D22F084AA00450826 /* DappbirdsSDKDemo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DappbirdsSDKDemo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F4ED2722F084AA00450826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83F4ED2922F084AB00450826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83F4ED2C22F084AB00450826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83F4ED2E22F084AB00450826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F4ED2F22F084AB00450826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83F4ED3622F084DF00450826 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		83F4ED3722F084E000450826 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83F4ED3922F084E000450826 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		83F4ED3B22F084E000450826 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		83F4ED3C22F084E000450826 /* DappbirdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DappbirdsBundle.bundle; sourceTree = "<group>"; };
+		83F4ED3D22F084E000450826 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F4ED1A22F084AA00450826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830CEF18233078E1008753E4 /* DappbirdsSDKIOST.framework in Frameworks */,
+				830CEF16233078E1008753E4 /* DappbirdsSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830018B52329EE650047BC71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830018B62329EE650047BC71 /* DappbirdsSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F4ED1422F084AA00450826 = {
+			isa = PBXGroup;
+			children = (
+				83F4ED1F22F084AA00450826 /* DappbirdsSDKDemo_OC */,
+				83F4ED1E22F084AA00450826 /* Products */,
+				830018B52329EE650047BC71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83F4ED1E22F084AA00450826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F4ED1D22F084AA00450826 /* DappbirdsSDKDemo_OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F4ED1F22F084AA00450826 /* DappbirdsSDKDemo_OC */ = {
+			isa = PBXGroup;
+			children = (
+				830CEF14233078D3008753E4 /* DappbirdsSDK.framework */,
+				830CEF062330709C008753E4 /* DappbirdsSDKIOST.framework */,
+				83F4ED3C22F084E000450826 /* DappbirdsBundle.bundle */,
+				831D49FC22FAA80200DAEF0D /* neoutils.framework */,
+				83F4ED3D22F084E000450826 /* AppDelegate.h */,
+				83F4ED3722F084E000450826 /* AppDelegate.m */,
+				83F4ED3622F084DF00450826 /* HomeViewController.h */,
+				83F4ED3B22F084E000450826 /* HomeViewController.m */,
+				83F4ED3922F084E000450826 /* PrefixHeader.pch */,
+				83F4ED2622F084AA00450826 /* Main.storyboard */,
+				83F4ED2922F084AB00450826 /* Assets.xcassets */,
+				83F4ED2B22F084AB00450826 /* LaunchScreen.storyboard */,
+				83F4ED2E22F084AB00450826 /* Info.plist */,
+				83F4ED2F22F084AB00450826 /* main.m */,
+			);
+			path = DappbirdsSDKDemo_OC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F4ED1C22F084AA00450826 /* DappbirdsSDKDemo_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F4ED3322F084AB00450826 /* Build configuration list for PBXNativeTarget "DappbirdsSDKDemo_OC" */;
+			buildPhases = (
+				83F4ED1922F084AA00450826 /* Sources */,
+				83F4ED1A22F084AA00450826 /* Frameworks */,
+				83F4ED1B22F084AA00450826 /* Resources */,
+				830CEF1A233078E1008753E4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DappbirdsSDKDemo_OC;
+			productName = DappbirdsSDKDemo_OC;
+			productReference = 83F4ED1D22F084AA00450826 /* DappbirdsSDKDemo_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F4ED1522F084AA00450826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = com.blockchain.dappbirdssdk;
+				TargetAttributes = {
+					83F4ED1C22F084AA00450826 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 83F4ED1822F084AA00450826 /* Build configuration list for PBXProject "DappbirdsSDKDemo_OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83F4ED1422F084AA00450826;
+			productRefGroup = 83F4ED1E22F084AA00450826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F4ED1C22F084AA00450826 /* DappbirdsSDKDemo_OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F4ED1B22F084AA00450826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F4ED2D22F084AB00450826 /* LaunchScreen.storyboard in Resources */,
+				83F4ED4222F084E000450826 /* DappbirdsBundle.bundle in Resources */,
+				83F4ED2A22F084AB00450826 /* Assets.xcassets in Resources */,
+				83F4ED2822F084AA00450826 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F4ED1922F084AA00450826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F4ED3E22F084E000450826 /* AppDelegate.m in Sources */,
+				83F4ED3022F084AB00450826 /* main.m in Sources */,
+				83F4ED4122F084E000450826 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83F4ED2622F084AA00450826 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F4ED2722F084AA00450826 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83F4ED2B22F084AB00450826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F4ED2C22F084AB00450826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83F4ED3122F084AB00450826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83F4ED3222F084AB00450826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83F4ED3422F084AB00450826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y62D39756G;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DappbirdsSDKDemo_OC",
+				);
+				GCC_PREFIX_HEADER = DappbirdsSDKDemo_OC/PrefixHeader.pch;
+				INFOPLIST_FILE = DappbirdsSDKDemo_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blockchain.dappbirdssdk.DappbirdsSDKDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83F4ED3522F084AB00450826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y62D39756G;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DappbirdsSDKDemo_OC",
+				);
+				GCC_PREFIX_HEADER = DappbirdsSDKDemo_OC/PrefixHeader.pch;
+				INFOPLIST_FILE = DappbirdsSDKDemo_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blockchain.dappbirdssdk.DappbirdsSDKDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F4ED1822F084AA00450826 /* Build configuration list for PBXProject "DappbirdsSDKDemo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F4ED3122F084AB00450826 /* Debug */,
+				83F4ED3222F084AB00450826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F4ED3322F084AB00450826 /* Build configuration list for PBXNativeTarget "DappbirdsSDKDemo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F4ED3422F084AB00450826 /* Debug */,
+				83F4ED3522F084AB00450826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F4ED1522F084AA00450826 /* Project object */;
+}

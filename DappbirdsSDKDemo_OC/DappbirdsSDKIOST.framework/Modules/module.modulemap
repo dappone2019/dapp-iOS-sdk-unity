@@ -1,0 +1,11 @@
+framework module DappbirdsSDKIOST {
+  umbrella header "DappbirdsSDKIOST.h"
+
+  export *
+  module * { export * }
+}
+
+module DappbirdsSDKIOST.Swift {
+    header "DappbirdsSDKIOST-Swift.h"
+    requires objc
+}
