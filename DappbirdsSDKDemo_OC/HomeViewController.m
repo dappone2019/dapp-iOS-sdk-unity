@@ -303,6 +303,7 @@
         [self modalToCreateWalletVC];
     }]];
     [alertVC addAction:[UIAlertAction actionWithTitle: @"取消" style: UIAlertActionStyleCancel handler: nil]];
+    self.navigationController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:alertVC animated: YES completion: nil];
     
 }

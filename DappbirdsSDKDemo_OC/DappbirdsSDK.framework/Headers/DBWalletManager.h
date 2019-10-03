@@ -134,6 +134,11 @@ typedef void (^payCompletionBlock)(BOOL success, NSString * msg);
 - (void)setDebug: (BOOL)isDEBUGGER;
 
 /**
+* 打开资源管理页面
+*/
+- (void)openIOSTResourcePage;
+
+/**
  * 支付订单成功dismiss的回调
  */
 @property(nonatomic,copy) payCompletionBlock paySuccessAndDismissCallBack;
