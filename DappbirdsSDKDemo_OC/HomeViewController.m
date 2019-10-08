@@ -44,9 +44,10 @@
     
     // 初始化,必须
     // 1.IOST
+    // 1.1 debug
     self.chainType = @"10";
     self.appID = @"39";
-    [[DBWalletManager shared] setApp_id:@"39" openid:@"bToKcBXMarLnVxdP4AdVaGg7jHcxQfjic" chain_type:self.chainType debugMode:YES];
+    [[DBWalletManager shared] setApp_id:self.appID openid:@"bToKcBXMarLnVxdP4AdVaGg7jHcxQfjic" chain_type:self.chainType debugMode:YES];
     
     // 2.ONG
     //self.chainType = @"7";
@@ -276,7 +277,7 @@
         
         int random = arc4random() % 1000000;
         NSString *order_no = [NSString stringWithFormat:@"ordernomber%d", random];
-        [[DBWalletManager shared] createdPayWalletWithContract_address:@"Contract9VyUyhk4NEpsus226eTb6c87YxFMo673fMp4oM4N7oWh" _signature:signature order_no:order_no amount:@"1" _timestamp:timeStampStr];
+        [[DBWalletManager shared] createdPayWalletWithContract_address:@"Contract9VyUyhk4NEpsus226eTb6c87YxFMo673fMp4oM4N7oWh" _signature:signature order_no:order_no amount:@"1" _timestamp:timeStampStr]; //
         
         [DBWalletManager shared].payCallBack = ^(BOOL success, NSString *msg) {
             if (success) {

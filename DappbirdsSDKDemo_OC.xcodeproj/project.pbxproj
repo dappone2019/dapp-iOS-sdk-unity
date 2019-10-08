@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83D5EFF02345C03300F07AE6 /* DappbirdsSDKIOST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5EFEE2345C03300F07AE6 /* DappbirdsSDKIOST.framework */; };
-		83D5EFF12345C03300F07AE6 /* DappbirdsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5EFEF2345C03300F07AE6 /* DappbirdsSDK.framework */; };
-		83D5EFF22345C03B00F07AE6 /* DappbirdsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5EFEF2345C03300F07AE6 /* DappbirdsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		83D5EFF32345C03B00F07AE6 /* DappbirdsSDKIOST.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5EFEE2345C03300F07AE6 /* DappbirdsSDKIOST.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83D5EFFE234C251400F07AE6 /* DappbirdsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5EFFC234C251400F07AE6 /* DappbirdsSDK.framework */; };
+		83D5EFFF234C251400F07AE6 /* DappbirdsSDKIOST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5EFFD234C251400F07AE6 /* DappbirdsSDKIOST.framework */; };
+		83D5F000234C251D00F07AE6 /* DappbirdsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5EFFC234C251400F07AE6 /* DappbirdsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83D5F001234C251D00F07AE6 /* DappbirdsSDKIOST.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83D5EFFD234C251400F07AE6 /* DappbirdsSDKIOST.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83F4ED2822F084AA00450826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F4ED2622F084AA00450826 /* Main.storyboard */; };
 		83F4ED2A22F084AB00450826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F4ED2922F084AB00450826 /* Assets.xcassets */; };
 		83F4ED2D22F084AB00450826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F4ED2B22F084AB00450826 /* LaunchScreen.storyboard */; };
@@ -27,8 +27,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				83D5EFF22345C03B00F07AE6 /* DappbirdsSDK.framework in Embed Frameworks */,
-				83D5EFF32345C03B00F07AE6 /* DappbirdsSDKIOST.framework in Embed Frameworks */,
+				83D5F000234C251D00F07AE6 /* DappbirdsSDK.framework in Embed Frameworks */,
+				83D5F001234C251D00F07AE6 /* DappbirdsSDKIOST.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,8 +38,8 @@
 /* Begin PBXFileReference section */
 		830018B62329EE650047BC71 /* DappbirdsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DappbirdsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		831D49FC22FAA80200DAEF0D /* neoutils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = neoutils.framework; sourceTree = "<group>"; };
-		83D5EFEE2345C03300F07AE6 /* DappbirdsSDKIOST.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DappbirdsSDKIOST.framework; sourceTree = "<group>"; };
-		83D5EFEF2345C03300F07AE6 /* DappbirdsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DappbirdsSDK.framework; sourceTree = "<group>"; };
+		83D5EFFC234C251400F07AE6 /* DappbirdsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DappbirdsSDK.framework; sourceTree = "<group>"; };
+		83D5EFFD234C251400F07AE6 /* DappbirdsSDKIOST.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DappbirdsSDKIOST.framework; sourceTree = "<group>"; };
 		83F4ED1D22F084AA00450826 /* DappbirdsSDKDemo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DappbirdsSDKDemo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F4ED2722F084AA00450826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83F4ED2922F084AB00450826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,8 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D5EFF02345C03300F07AE6 /* DappbirdsSDKIOST.framework in Frameworks */,
-				83D5EFF12345C03300F07AE6 /* DappbirdsSDK.framework in Frameworks */,
+				83D5EFFF234C251400F07AE6 /* DappbirdsSDKIOST.framework in Frameworks */,
+				83D5EFFE234C251400F07AE6 /* DappbirdsSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +95,8 @@
 		83F4ED1F22F084AA00450826 /* DappbirdsSDKDemo_OC */ = {
 			isa = PBXGroup;
 			children = (
-				83D5EFEF2345C03300F07AE6 /* DappbirdsSDK.framework */,
-				83D5EFEE2345C03300F07AE6 /* DappbirdsSDKIOST.framework */,
+				83D5EFFC234C251400F07AE6 /* DappbirdsSDK.framework */,
+				83D5EFFD234C251400F07AE6 /* DappbirdsSDKIOST.framework */,
 				83F4ED3C22F084E000450826 /* DappbirdsBundle.bundle */,
 				831D49FC22FAA80200DAEF0D /* neoutils.framework */,
 				83F4ED3D22F084E000450826 /* AppDelegate.h */,
