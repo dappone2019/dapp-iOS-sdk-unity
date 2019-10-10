@@ -48,6 +48,7 @@
     self.chainType = @"10";
     self.appID = @"39";
     [[DBWalletManager shared] setApp_id:self.appID openid:@"bToKcBXMarLnVxdP4AdVaGg7jHcxQfjic" chain_type:self.chainType debugMode:YES];
+
     
     // 2.ONG
     //self.chainType = @"7";
@@ -267,7 +268,7 @@
         };
     } else if ([self.chainType isEqualToString:@"10"]) {
         // IOST支付
-        NSString * appsecret = @"980d12ed0fc1149ce0d2cd7c7998644e";
+        NSString * appsecret = @"980d12ed0fc1149ce0d2cd7c7998644e"; //
         NSDate *date = [NSDate date];
         NSTimeInterval interval = [date timeIntervalSince1970];
         NSInteger timeStamp = interval;
